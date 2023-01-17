@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+    <h1>registro</h1>
+    <form action="/register.html" method="post">
+    <input type="text" name="nombreYapellido" placeholder="nombre y apellido">
+    <input type="text" name="nombreDeUsuario" placeholder="nombre de usuario">
+    <input type="email" name="email" placeholder="E-mail">
+    <label>Fecha de nacimiento</label>
+    <input type="date" name="fecha" value="fecha actual" min="2004/12/26" max="1989/12/2022" class="fechas">
+    <input type="text" name="domicilio" placeholder="domicilio">
+    <label>Perfil de usuario</label>
+    <input type="radio" name="comprador">Comprador
+    <input type="radio" name="vendedor">Vendedor
+    <label for="">Intereses</label>
+    <input type="checkbox" name="Intereses" value="electro">Electro
+    <input type="checkbox" name="Intereses" value="moda">Moda
+    <input type="checkbox" name="Intereses" value="hogar">Hogar
+    <input type="checkbox" name="Intereses" value="jugueteria">Jugueteria
+    <input type="checkbox" name="Intereses" value="vidaSana">Vida Sana
+    <label for="">Foto de Perfil</label>
+    <input type="file" name="foto" accept=".jpg, .jpge, .txt, .img">
+    <input type="password" name="contraseña" placeholder="ingrese su contraseña">
+    <input type="password" name="contraseña2" placeholder="reingrese su contraseña">
+    <button type="submit" name="enviar"><a href="/home.html"></a>Enviar</button>
+    <button type="reset" name="resetear">Borrar</button>
+
+    </select>
+    
+</form>
+    
+</body>
+</html>
